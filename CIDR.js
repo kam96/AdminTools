@@ -81,8 +81,12 @@ class CIDR
   }
 }
 
+module.exports = CIDR;
+
+/*
 var cidr_str = process.argv.slice(2).toString();
 var cidr = new CIDR(cidr_str);
 console.log("Mask: ", cidr.mask);
 console.log("Addresses: ", cidr.numberOfAddresses);
 console.log("Range: ", cidr.range);
+*/
