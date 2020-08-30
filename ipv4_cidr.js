@@ -1,6 +1,7 @@
 // IPv4 CIDR to IP Range Converter
-// Kameron Balutch
+// kbalutch@uci.edu
 // August 23, 2020
+// Last Updated Aug 26, 2020
 
 class CIDR
 /*
@@ -86,6 +87,3 @@ var cidr = new CIDR(cidr_str);
 console.log("Mask: ", cidr.mask);
 console.log("Addresses: ", cidr.numberOfAddresses);
 console.log("Range: ", cidr.range);
-
-// Tested object type
-// console.log(Object.prototype.toString.call(cidr));
