@@ -3,6 +3,11 @@
 // August 23, 2020
 // Last Updated Aug 29, 2020
 
+/*
+  Initially wanted to add a listing of addresses within the range though this
+  could span up to ~4.3 billion addresses with 0.0.0.0/0
+*/
+
 class CIDR
 /*
   Expects 'address' of type string in format:
